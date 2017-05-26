@@ -7,7 +7,8 @@ interface Navigation {
 
 @Component({
     selector : "gw-nav",
-    templateUrl : "./nav.html"
+    templateUrl : "./nav.component.html",
+    styleUrls: ['./nav.component.css']
 })
 
 export class NavComponent {
